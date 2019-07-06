@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
   if library["get_emoticon"].keys.include?(emoticon)
     library["get_emoticon"][emoticon]
   end
-  binding.pry
+  #binding.pry
 end
 
 def get_english_meaning(file_path, emoticon)
